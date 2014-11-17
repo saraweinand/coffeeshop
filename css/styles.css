@@ -1,0 +1,83 @@
+/*notes
+	colors--
+	orange: E1771E
+	gray: BFBFBF
+
+	fonts--
+	Josefin+Slab:100,300
+*/
+
+body {
+    background-image:url("../img/espresso.jpg");
+    background-repeat: no-repeat;
+    background-size:120%;
+}
+
+.logo {
+	width: 100%;
+}
+
+.logo img {
+	width: 80%;
+	max-width: 850px;
+	display: block;
+	margin: 5% auto;
+}
+
+.logo h3 {
+	text-align: center;
+}
+
+h3 {
+	color: white;
+	font-family: 'Josefin Slab', serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: .9em
+
+}
+
+/*navigation*/
+
+.fixed-nav {
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.fixed-nav li {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.fixed-nav li a {
+	text-decoration: none;
+	color: #000;
+	margin: 0 1em;
+	text-align: center;
+
+	font-family: 'Josefin Slab', serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: .75em
+}
+
+.fixed-nav li a:hover {
+	color: #BFBFBF;
+}
+
+.fixed-nav li a:active {
+	color: #E1771E ;
+	font-weight: 600;
+}
+
+
+
+
+
+
+
+
